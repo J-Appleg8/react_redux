@@ -1,6 +1,6 @@
 import classes from './Counter.module.css';
 
-const Counter = () => {
+export default function Counter() {
   const toggleCounterHandler = () => {};
 
   return (
@@ -10,6 +10,4 @@ const Counter = () => {
       <button onClick={toggleCounterHandler}>Toggle Counter</button>
     </main>
   );
-};
-
-export default Counter;
+}
